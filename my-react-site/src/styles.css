@@ -5,8 +5,6 @@ body {
     color: white;
 }
 
-/* Navbar */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -20,29 +18,16 @@ body {
     text-decoration: none;
 }
 
-/* Hero */
-
-.hero {
-    text-align: center;
-    padding: 120px 20px;
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
-/* Sections */
-
-.section {
+.page {
     padding: 80px 10%;
 }
 
-/* Projects */
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.project-card {
-    background: #1e293b;
-    padding: 20px;
+.page img {
+    max-width: 100%;
     border-radius: 10px;
+    margin-top: 20px;
 }
