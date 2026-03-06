@@ -15,12 +15,12 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/position-statement" element={<PositionStatement />} />
-                <Route path="/esc101" element={<ESC101 />} />
-                <Route path="/civ102" element={<CIV102 />} />
-                <Route path="/uoft-hacks" element={<UofTHacks />} />
-                <Route path="/esc102" element={<ESC102 />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/Engineering-Portfolio/position-statement" element={<PositionStatement />} />
+                <Route path="/Engineering-Portfolio/esc101" element={<ESC101 />} />
+                <Route path="/Engineering-Portfolio/civ102" element={<CIV102 />} />
+                <Route path="/Engineering-Portfolio/uoft-hacks" element={<UofTHacks />} />
+                <Route path="/Engineering-Portfolio/esc102" element={<ESC102 />} />
+                <Route path="/Engineering-Portfolio/contact" element={<Contact />} />
             </Routes>
         </Router>
     );
