@@ -5,12 +5,12 @@ function Navbar() {
         <nav className="navbar">
             <h2>Cindy Zhu</h2>
             <div className="nav-links">
-                <Link to="/position-statement">Position Statement</Link>
-                <Link to="/esc101">ESC101 Backpacks</Link>
-                <Link to="/civ102">CIV102 Bridge Project</Link>
-                <Link to="/uoft-hacks">UofT Hacks Robot Lamp</Link>
-                <Link to="/esc102">ESC102 Designing for Astronomers</Link>
-                <Link to="/contact">Contact Me</Link>
+                <Link to="/Engineering-Portfolio/position-statement">Position Statement</Link>
+                <Link to="/Engineering-Portfolio/esc101">ESC101 Backpacks</Link>
+                <Link to="/Engineering-Portfolio/civ102">CIV102 Bridge Project</Link>
+                <Link to="/Engineering-Portfolio/uoft-hacks">UofT Hacks Robot Lamp</Link>
+                <Link to="/Engineering-Portfolio/esc102">ESC102 Designing for Astronomers</Link>
+                <Link to="/Engineering-Portfolio/contact">Contact Me</Link>
             </div>
         </nav>
     );
